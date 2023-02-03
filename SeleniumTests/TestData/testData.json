@@ -1,0 +1,40 @@
+﻿{
+  "products": [
+    {
+      "url": "/wyspy-zielonego-przyladka-sal/",
+      "id": "389",
+      "price": "5399",
+      "priceText": "5 399,00 zł"
+    },
+    {
+      "url": "/zmien-swoja-sylwetke-yoga-na-malcie/",
+      "id": "62",
+      "price": "3299",
+      "priceText": "3 299,00 zł"
+    }
+  ],
+  "card": {
+    "number": "4242424242424242",
+    "expirationDate": "0232",
+    "cvc": "222"
+  },
+  "validationMessages": {
+    "name": "Imię płatnika jest wymaganym polem.",
+    "lastName": "Nazwisko płatnika jest wymaganym polem.",
+    "address": "Ulica płatnika jest wymaganym polem.",
+    "postcode": "Kod pocztowy płatnika nie jest prawidłowym kodem pocztowym.",
+    "city": "Miasto płatnika jest wymaganym polem.",
+    "phone": "Telefon płatnika jest wymaganym polem.",
+    "email": "Adres email płatnika jest wymaganym polem.",
+    "terms": "Proszę przeczytać i zaakceptować regulamin sklepu aby móc sfinalizować zamówienie."
+  },
+  "customer": {
+    "name": "Karolina",
+    "lastName": "Kowalska",
+    "address": "ul. Kwiatowa 12/44.",
+    "postcode": "31-333",
+    "city": "Kraków",
+    "phone": "6666666",
+    "email": "hoho@hohoho.pl"
+  }
+}

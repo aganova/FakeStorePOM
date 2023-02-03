@@ -1,0 +1,255 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nowac\\OneDrive\\Desktop\\Testing\\C#_kursSelenium_testelka\\FakeStorePOM\\SeleniumTests\\SeleniumTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nowac\\OneDrive\\Desktop\\Testing\\C#_kursSelenium_testelka\\FakeStorePOM\\FakestorePageObjects\\FakestorePageObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nowac\\OneDrive\\Desktop\\Testing\\C#_kursSelenium_testelka\\FakeStorePOM\\FakestorePageObjects\\FakestorePageObjects.csproj",
+        "projectName": "FakestorePageObjects",
+        "projectPath": "C:\\Users\\nowac\\OneDrive\\Desktop\\Testing\\C#_kursSelenium_testelka\\FakeStorePOM\\FakestorePageObjects\\FakestorePageObjects.csproj",
+        "packagesPath": "C:\\Users\\nowac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nowac\\OneDrive\\Desktop\\Testing\\C#_kursSelenium_testelka\\FakeStorePOM\\FakestorePageObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nowac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\nowac\\OneDrive\\Desktop\\Testing\\C#_kursSelenium_testelka\\FakeStorePOM\\Helpers\\Helpers.csproj": {
+                "projectPath": "C:\\Users\\nowac\\OneDrive\\Desktop\\Testing\\C#_kursSelenium_testelka\\FakeStorePOM\\Helpers\\Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nowac\\OneDrive\\Desktop\\Testing\\C#_kursSelenium_testelka\\FakeStorePOM\\Helpers\\Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nowac\\OneDrive\\Desktop\\Testing\\C#_kursSelenium_testelka\\FakeStorePOM\\Helpers\\Helpers.csproj",
+        "projectName": "Helpers",
+        "projectPath": "C:\\Users\\nowac\\OneDrive\\Desktop\\Testing\\C#_kursSelenium_testelka\\FakeStorePOM\\Helpers\\Helpers.csproj",
+        "packagesPath": "C:\\Users\\nowac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nowac\\OneDrive\\Desktop\\Testing\\C#_kursSelenium_testelka\\FakeStorePOM\\Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nowac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nowac\\OneDrive\\Desktop\\Testing\\C#_kursSelenium_testelka\\FakeStorePOM\\SeleniumTests\\SeleniumTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nowac\\OneDrive\\Desktop\\Testing\\C#_kursSelenium_testelka\\FakeStorePOM\\SeleniumTests\\SeleniumTests.csproj",
+        "projectName": "SeleniumTests",
+        "projectPath": "C:\\Users\\nowac\\OneDrive\\Desktop\\Testing\\C#_kursSelenium_testelka\\FakeStorePOM\\SeleniumTests\\SeleniumTests.csproj",
+        "packagesPath": "C:\\Users\\nowac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nowac\\OneDrive\\Desktop\\Testing\\C#_kursSelenium_testelka\\FakeStorePOM\\SeleniumTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nowac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\nowac\\OneDrive\\Desktop\\Testing\\C#_kursSelenium_testelka\\FakeStorePOM\\FakestorePageObjects\\FakestorePageObjects.csproj": {
+                "projectPath": "C:\\Users\\nowac\\OneDrive\\Desktop\\Testing\\C#_kursSelenium_testelka\\FakeStorePOM\\FakestorePageObjects\\FakestorePageObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[109.0.5414.7400, )"
+            },
+            "Selenium.WebDriver.GeckoDriver.Win64": {
+              "target": "Package",
+              "version": "[0.32.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

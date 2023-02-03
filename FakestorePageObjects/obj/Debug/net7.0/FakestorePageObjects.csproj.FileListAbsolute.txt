@@ -1,0 +1,15 @@
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\bin\Debug\net7.0\FakestorePageObjects.deps.json
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\bin\Debug\net7.0\FakestorePageObjects.dll
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\bin\Debug\net7.0\FakestorePageObjects.pdb
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\bin\Debug\net7.0\Helpers.dll
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\bin\Debug\net7.0\Helpers.pdb
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\obj\Debug\net7.0\FakestorePageObjects.csproj.AssemblyReference.cache
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\obj\Debug\net7.0\FakestorePageObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\obj\Debug\net7.0\FakestorePageObjects.AssemblyInfoInputs.cache
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\obj\Debug\net7.0\FakestorePageObjects.AssemblyInfo.cs
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\obj\Debug\net7.0\FakestorePageObjects.csproj.CoreCompileInputs.cache
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\obj\Debug\net7.0\FakestorePageObjects.csproj.CopyComplete
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\obj\Debug\net7.0\FakestorePageObjects.dll
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\obj\Debug\net7.0\refint\FakestorePageObjects.dll
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\obj\Debug\net7.0\FakestorePageObjects.pdb
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\obj\Debug\net7.0\ref\FakestorePageObjects.dll

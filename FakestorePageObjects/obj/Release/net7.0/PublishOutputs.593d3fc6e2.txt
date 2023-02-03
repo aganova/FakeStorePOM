@@ -1,0 +1,8 @@
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\bin\Release\net7.0\publish\FakestorePageObjects.dll
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\bin\Release\net7.0\publish\FakestorePageObjects.deps.json
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\bin\Release\net7.0\publish\FakestorePageObjects.pdb
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\bin\Release\net7.0\publish\Newtonsoft.Json.dll
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\bin\Release\net7.0\publish\WebDriver.Support.dll
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\bin\Release\net7.0\publish\WebDriver.dll
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\bin\Release\net7.0\publish\Helpers.dll
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\FakestorePageObjects\bin\Release\net7.0\publish\Helpers.pdb
