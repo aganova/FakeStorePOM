@@ -26,8 +26,8 @@ namespace SeleniumTests
 
             Assert.Multiple(() =>
             {
-                Assert.AreEqual(1, cartPage.CartItems.Count, "Number of product in cart is not 1");
-                Assert.AreEqual(ProductsIDs[0], cartPage.ItemId,
+                Assert.That(cartPage.CartItems.Count, Is.EqualTo(1), "Number of product in cart is not 1");
+                Assert.That(cartPage.ItemId, Is.EqualTo(ProductsIDs[0]),
                     "Product's in cart id is not " + ProductsIDs[0]);
             });
         }
@@ -40,10 +40,9 @@ namespace SeleniumTests
 
             Assert.Multiple(() =>
             {
-                Assert.AreEqual(1, cartPage.CartItems.Count, "Number of product in cart is not 1");
-                Assert.AreEqual(ProductsIDs[0], cartPage.ItemId,
-                    "Product's in cart id is not " + ProductsIDs[0]);
-                Assert.AreEqual("2", cartPage.QuantityField.GetAttribute("value"), "Number of items of the product is not 2");
+                Assert.That(cartPage.CartItems.Count, Is.EqualTo(1), "Number of product in cart is not 1");
+                Assert.That(cartPage.ItemId, Is.EqualTo(ProductsIDs[0]), "Product's in cart id is not " + ProductsIDs[0]);
+                Assert.That(cartPage.QuantityField.GetAttribute("value"), Is.EqualTo("2"), "Number of items of the product is not 2");
             });
         }
 
@@ -55,10 +54,10 @@ namespace SeleniumTests
 
             Assert.Multiple(() =>
             {
-                Assert.AreEqual(2, cartPage.CartItems.Count, "Number of product in cart is not 1");
-                Assert.AreEqual(ProductsIDs[0], cartPage.ItemIds[0],
+                Assert.That(cartPage.CartItems.Count, Is.EqualTo(2), "Number of product in cart is not 1");
+                Assert.That(cartPage.ItemIds[0], Is.EqualTo(ProductsIDs[0]),
                     "Product's in cart id is not " + ProductsIDs[0]);
-                Assert.AreEqual(ProductsIDs[1], cartPage.ItemIds[1],
+                Assert.That(cartPage.ItemIds[1], Is.EqualTo(ProductsIDs[1]),
                     "Product's in cart id is not " + ProductsIDs[1]);
             });
         }
@@ -102,7 +101,7 @@ namespace SeleniumTests
             ProductPage productPage = new ProductPage(driver, config.BaseUrl);
             CartPage cartPage = productPage.GoTo(ProductsURLs[0]).AddToCart().GoToCart().ChangeItemQuantity(5).UpdateCart();
 
-            Assert.AreEqual("5", cartPage.QuantityField.GetAttribute("value"), "Number of items didn't change");
+            Assert.That(cartPage.QuantityField.GetAttribute("value"), Is.EqualTo("5"), "Number of items didn't change");
         }
         [Test]
         public void ChangingNumberOfItemsToZeroRemovesProductTest()

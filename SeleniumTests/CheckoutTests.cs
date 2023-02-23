@@ -53,8 +53,8 @@ namespace SeleniumTests
             Assert.Multiple(() =>
             {
                 Assert.DoesNotThrow(() => _ = checkoutPage.ErrorsList, "Error list was not found. There was no validation error.");
-                Assert.AreEqual(8, checkoutPage.ErrorMessagesElements.Count, "Number of error messages is not correct.");
-                Assert.AreEqual(expectedErrorMessages.OrderBy(message => message), errorMessages.OrderBy(message => message));
+                Assert.That(checkoutPage.ErrorMessagesElements.Count, Is.EqualTo(8), "Number of error messages is not correct.");
+                Assert.That(errorMessages.OrderBy(message => message), Is.EqualTo(expectedErrorMessages.OrderBy(message => message)));
             });
         }
 
@@ -70,9 +70,9 @@ namespace SeleniumTests
             float tax = CalculateTax(ProductsPrices[0]);
             Assert.Multiple(() =>
             {
-                Assert.AreEqual(ProductsPricesText[0], checkoutPage.ProductTotalElement.Text);
-                Assert.AreEqual(ProductsPricesText[0], checkoutPage.CartSubtotalElement.Text);
-                Assert.AreEqual(ProductsPricesText[0] + " (zawiera " + FormatNumber(tax) + " VAT)", checkoutPage.OrderTotalElement.Text);
+                Assert.That(checkoutPage.ProductTotalElement.Text, Is.EqualTo(ProductsPricesText[0]));
+                Assert.That(checkoutPage.CartSubtotalElement.Text, Is.EqualTo(ProductsPricesText[0]));
+                Assert.That(checkoutPage.OrderTotalElement.Text, Is.EqualTo(ProductsPricesText[0] + " (zawiera " + FormatNumber(tax) + " VAT)"));
             });
         }
 
@@ -90,10 +90,10 @@ namespace SeleniumTests
             float totalPrice = ProductsPrices[0] * 2 + ProductsPrices[1] * 3;
             Assert.Multiple(() =>
             {
-                Assert.AreEqual(FormatNumber(ProductsPrices[0] * 2), checkoutPage.ProductTotalElements[0].Text);
-                Assert.AreEqual(FormatNumber(ProductsPrices[1] * 3), checkoutPage.ProductTotalElements[1].Text);
-                Assert.AreEqual(FormatNumber(totalPrice), checkoutPage.CartSubtotalElement.Text);
-                Assert.AreEqual(FormatNumber(totalPrice) + " (zawiera " + FormatNumber(CalculateTax(totalPrice)) + " VAT)", checkoutPage.OrderTotalElement.Text);
+                Assert.That(checkoutPage.ProductTotalElements[0].Text, Is.EqualTo(FormatNumber(ProductsPrices[0] * 2)));
+                Assert.That(checkoutPage.ProductTotalElements[1].Text, Is.EqualTo(FormatNumber(ProductsPrices[1] * 3)));
+                Assert.That(checkoutPage.CartSubtotalElement.Text, Is.EqualTo(FormatNumber(totalPrice)));
+                Assert.That(checkoutPage.OrderTotalElement.Text, Is.EqualTo(FormatNumber(totalPrice) + " (zawiera " + FormatNumber(CalculateTax(totalPrice)) + " VAT)"));
             });
         }
 
@@ -123,9 +123,9 @@ namespace SeleniumTests
 
             Assert.Multiple(() =>
             {
-                Assert.AreEqual(FormatNumber(total), checkoutPage.ProductTotalElement.Text);
-                Assert.AreEqual(FormatNumber(total), checkoutPage.CartSubtotalElement.Text);
-                Assert.AreEqual(FormatNumber(total) + " (zawiera " + FormatNumber(tax) + " VAT)", checkoutPage.OrderTotalElement.Text);
+                Assert.That(checkoutPage.ProductTotalElement.Text, Is.EqualTo(FormatNumber(total)));
+                Assert.That(checkoutPage.CartSubtotalElement.Text, Is.EqualTo(FormatNumber(total)));
+                Assert.That(checkoutPage.OrderTotalElement.Text, Is.EqualTo(FormatNumber(total) + " (zawiera " + FormatNumber(tax) + " VAT)"));
             });
         }
 
@@ -145,7 +145,7 @@ namespace SeleniumTests
                 .CheckTerms()
                 .PlaceOrder<SuccessfulOrderPage>();
 
-            Assert.AreEqual("Zamówienie otrzymane", successfulOrderPage.EntryHeader.Text, "Page header is not what expected. Order was not sucessful.");
+            Assert.That(successfulOrderPage.EntryHeader.Text, Is.EqualTo("Zamówienie otrzymane"), "Page header is not what expected. Order was not sucessful.");
         }
 
 

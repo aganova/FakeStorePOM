@@ -8,7 +8,7 @@
 //{
 //  "browser": "firefox",
 //  "isRemote": "false",
-//  //"remoteAddress": "http://localhost:4444/wd/hub",
+//  "remoteAddress": "http://localhost:4444/wd/hub",
 //  "platformName": "WINDOWS",
 //  "baseUrl": "https://fakestore.testelka.pl/"
 //}

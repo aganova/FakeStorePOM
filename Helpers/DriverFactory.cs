@@ -52,6 +52,7 @@ namespace Helpers
                     {
                         PlatformName = platformName
                     };
+                    ((ChromeOptions)options).AddArgument("--headless=new");
                     break;
                 case "firefox":
                     options = new FirefoxOptions
@@ -62,6 +63,7 @@ namespace Helpers
                 default:
                     throw new ArgumentException("Provided browser: " + browser + " is not supported. Available: chrome, firefox");
             }
+
             _ = remoteAddress != null ? driver = new RemoteWebDriver(remoteAddress, options) : driver = new RemoteWebDriver(options);
             return driver;
         }
