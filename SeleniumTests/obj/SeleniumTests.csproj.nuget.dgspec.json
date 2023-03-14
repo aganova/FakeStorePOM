@@ -46,11 +46,11 @@
           "dependencies": {
             "Selenium.Support": {
               "target": "Package",
-              "version": "[3.141.0, )"
+              "version": "[4.8.1, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",
-              "version": "[3.141.0, )"
+              "version": "[4.8.1, )"
             }
           },
           "imports": [
@@ -115,11 +115,11 @@
             },
             "Selenium.Support": {
               "target": "Package",
-              "version": "[3.141.0, )"
+              "version": "[4.8.1, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",
-              "version": "[3.141.0, )"
+              "version": "[4.8.1, )"
             }
           },
           "imports": [
@@ -188,7 +188,7 @@
             },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[7.0.3, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
@@ -196,39 +196,43 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.3.2, )"
+              "version": "[17.5.0, )"
             },
             "NUnit": {
               "target": "Package",
               "version": "[3.13.3, )"
             },
             "NUnit.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.3.0, )"
+              "version": "[3.6.1, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[4.2.1, )"
+              "version": "[4.4.2, )"
             },
             "Selenium.Support": {
               "target": "Package",
-              "version": "[3.141.0, )"
+              "version": "[4.8.1, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",
-              "version": "[3.141.0, )"
+              "version": "[4.8.1, )"
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
-              "version": "[109.0.5414.7400, )"
+              "version": "[111.0.5563.6400, )"
             },
             "Selenium.WebDriver.GeckoDriver.Win64": {
               "target": "Package",
-              "version": "[0.32.0, )"
+              "version": "[0.32.2, )"
             },
             "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.2.0, )"
             }
           },
           "imports": [

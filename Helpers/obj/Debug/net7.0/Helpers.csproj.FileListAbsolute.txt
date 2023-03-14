@@ -10,3 +10,6 @@ C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\He
 C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\Helpers\obj\Debug\net7.0\refint\Helpers.dll
 C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\Helpers\obj\Debug\net7.0\Helpers.pdb
 C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\Helpers\obj\Debug\net7.0\ref\Helpers.dll
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\Helpers\bin\Debug\net7.0\selenium-manager\linux\selenium-manager
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\Helpers\bin\Debug\net7.0\selenium-manager\macos\selenium-manager
+C:\Users\nowac\OneDrive\Desktop\Testing\C#_kursSelenium_testelka\FakeStorePOM\Helpers\bin\Debug\net7.0\selenium-manager\windows\selenium-manager.exe
